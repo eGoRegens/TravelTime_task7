@@ -6,7 +6,7 @@ public class DistanceToWork {
 
         final double testerTravelTimeToOffice = distanceFromHomeToOffice / averageSpeedTaxi;  //время в пути тестировщика в офис из дома
         final double testerTravelTimeToHome = testerTravelTimeToOffice * eveningSpeedReduction;
-        
+
         System.out.println("Расстояние от дома до работы - " + distanceFromHomeToOffice + " км.");
         System.out.println("Средняя скорость такси - " + averageSpeedTaxi + " км/ч.");
         System.out.println("Коэффицент снижения скорости транспорта в вечернее время на - " + eveningSpeedReduction);
